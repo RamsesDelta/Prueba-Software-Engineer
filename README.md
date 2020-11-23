@@ -25,7 +25,8 @@ Para la parte back es necesario lo siguiente:
 ```
 
 La base de datos que se usa el proyecto es MYSQL con los valores por defectos que se encuentran en el properties de cada proyecto que serían (usuario = root) y (password = root)
-Tambien se cuenta con un archivo import.sql para insertar algunos datos de ejemplo en la base. Y además las tablas se crean al ejecutar cualquier proyecto de
+Tambien se cuenta con un archivo import.sql para insertar algunos datos de ejemplo en la base. Y además las tablas se crean al ejecutar cualquier proyecto
+
 Para la parte Front fue echo en react, todo el proyecto se encuentra dentro de la carpeta front
 Para poder probar algunas funcionales del proyecto es necesario ingresar las siguientes urls
 
@@ -40,5 +41,5 @@ Para poder probar algunas funcionales del proyecto es necesario ingresar las sig
 7.	/solicitudes : donde el Bibliotecario será el encargado de menguar los préstamos de los libros
 ```
 
-Para la urla que contiene el (:id) se tendrá que remplazar por un numero que corresponde al id del Lector 
+Para la urls que contiene el (:id) se tendrá que remplazar por un numero que corresponde al id del Lector 
 Y al principio de cada url se debería colocar el localhost que levanta react
