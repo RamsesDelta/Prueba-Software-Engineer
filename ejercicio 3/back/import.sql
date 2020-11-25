@@ -26,3 +26,9 @@ insert into usuarios (id_usuario,correo,fecha_nacimiento,nombre,password,enable)
 
 insert into solicitudes (id_solicitud,id_libro,id_status,id_usuario) values (1,2,1,3);
 insert into solicitudes (id_solicitud,id_libro,id_status,id_usuario) values (2,4,1,5);
+
+
+insert into usuarios_rol(id_usuario_rol,id_rol,id_usuario)  values  (1,1,1);
+insert into usuarios_rol(id_usuario_rol,id_rol,id_usuario)  values  (2,1,2);
+insert into usuarios_rol(id_usuario_rol,id_rol,id_usuario)  values  (3,2,3);
+insert into usuarios_rol(id_usuario_rol,id_rol,id_usuario)  values  (4,1,4);
